@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <form onsubmit= "conversion(); return false ">
+                <h1 id="heading">Enter the temperature you want to convert</h1>
+                <br/>
+                <br/>
+                <input type="number" id="inptem">
+                <select id="selection" name="temp_diff">
+                    <option value="">Select</option>
+                    <option value="cel">Celcius</option>
+                    <option value="far">Farhenheit</option>
+                </select> 
+                <br/>
+                <br/>
+                <span id="result"></span>
+                <br/>
+                <input type="submit" id="subm">
+                <br/>
+                <br/>
+            </form>
+            <button id="resetq">Reset</button>
+        </div>
+             <script src="Temp.js"></script>
+    </div>
+</body>
+</html>
